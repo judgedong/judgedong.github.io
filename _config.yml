@@ -78,9 +78,9 @@ theme: material
 deploy:
   type: git
   repo: https://github.com/judgedong/judgedong.github.io.git
-  branch: hexo
+  branch: master
 ## git-backup:Docs: https://github.com/coneycode/hexo-git-backup
 backup:
   type: git
   repository: 
-    github: https://github.com/judgedong/judgedong.github.io.git,master
+    github: https://github.com/judgedong/judgedong.github.io.git,hexo
